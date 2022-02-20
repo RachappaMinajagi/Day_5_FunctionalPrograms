@@ -15,6 +15,10 @@ public class DistanceOfPoints {
 		return result;
 
 	}
+	
+	      /*
+		* creating scanner object and prints inpuut from user
+		*/
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
