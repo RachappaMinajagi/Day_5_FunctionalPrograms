@@ -1,6 +1,8 @@
 package com.FunctionalPrograms;
-
-import java.util.Scanner;
+/*
+* importing scanner class
+*/
+import java.util.Scanner; 
 
 public class Array2D {
 	public static void display(int[][] array, int m, int n) {
@@ -8,6 +10,9 @@ public class Array2D {
 	}
 
 	public static void main(String[] args) {
+		/*
+		*  create scanner object
+		*/
 
 		Scanner num = new Scanner(System.in);
 		System.out.println("1: Create integer 2D array");
@@ -26,6 +31,10 @@ public class Array2D {
 			int array1[][] = new int[m][n];
 			double array2[][] = new double[m][n];
 			boolean array3[][] = new boolean[m][n];
+			
+	         /*
+		* using switch case for integer type array in rows and columns
+		*/
 
 			switch (cse) {
 			case 1:
