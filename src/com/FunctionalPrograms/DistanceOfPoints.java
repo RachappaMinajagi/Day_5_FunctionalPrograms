@@ -3,7 +3,10 @@ package com.FunctionalPrograms;
 import java.util.Scanner;
 
 public class DistanceOfPoints {
-	public static double distance(int x, int y) {
+	public static double distance(int x, int y) {   
+		 /* 
+		*takes two integer command-line arguments x and y
+		*/
 
 		double result1 = Math.pow(x, 2);
 		double result2 = Math.pow(y, 2);
